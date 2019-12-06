@@ -1,0 +1,140 @@
+.header-c,
+.team-c,
+.mission-c,
+.vision-c,
+.footer-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    border-bottom: 20px solid #f6f6f6;
+}
+.team-c{
+    height: 643px;
+}
+.mission-c{
+    height: 241px;
+}
+.vision-c{
+    height: 333px;
+}
+.team-c .team1{
+    position: absolute;
+    top: 43px;
+    left: 0;
+    height: 600px;
+    width: 100%;
+}
+.cname{
+    float: left;
+    font-size: 18px;
+    color: #7f7f7f;
+}
+.ename{
+    position: absolute;
+    top: 22px;
+    left: 0;
+    float: left;
+    font-size: 12px;
+    color: #6b6b6b;
+}
+.team1 .line{
+    position: absolute;
+    top: 39px;
+    left: 0;
+    height: 1px;
+    width: 30px;
+    background-color: #989898;
+}
+.team-c .list{
+    position: absolute;
+    top: 70px;
+    height: 430px;
+    width: 100%;
+}
+.list .list-item{
+    position: relative;
+    float: left;
+    height: 230px;
+    width: 550px;
+    margin-right: 50px;
+}
+.list-item .rw{
+    height: 200px;
+    width: 200px;
+    background: url(../img/rw1.png) no-repeat center
+}
+.list-item .name{
+    position: absolute;
+    top: 31px;
+    left: 222px;
+    font-size: 18px;
+    color: #6b6b6b;
+}
+.list-item .post{
+    position: absolute;
+    top: 57px;
+    left: 222px;
+    font-size: 14px;
+    color: #929292;
+}
+.list-item .text{
+    position: absolute;
+    top: 91px;
+    left: 222px;
+    font-size: 12px;
+    color: #929292;
+}
+.list-item .line{
+    position: absolute;
+    top: 165px;
+    left: 222px;
+    width: 60px;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+.pocture{
+    position: absolute;
+    top: 72px;
+    right: 0%;
+    height: 300px;
+    width: 500px;
+    background: url(../img/tp.png) no-repeat center
+}
+.mission-c .text{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    width: 603px;
+}
+.mission-c span{
+    font-size: 14px;
+}
+
+.mission-c .text1{
+    position: absolute;
+    top: 65px;
+    text-indent: 2em;
+    line-height: 25px;
+    color: #989898;
+}
+.mission-c .text2{
+    position: absolute;
+    top: 121px;
+    text-indent: 2em;
+    line-height: 25px;
+    color: #989898;
+}
+.vision-c .text{
+    position: absolute;
+    top: 70px;
+    height: 170px;
+    width: 603px;
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 25px;
+    color: #989898;
+
+}

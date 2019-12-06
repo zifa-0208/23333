@@ -1,0 +1,128 @@
+.header-c,
+.banner-c,
+.chuang-c,
+.shafa-c,
+.zhuoyi-c,
+.yigui-c,
+.deng-c,
+.footer-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.banner-c{
+    height: 300px;
+    background: url(../img/banner.jpg) no-repeat center
+}
+.chuang-c{
+    height: 969px;
+    margin-top: 50px;
+}
+.shafa-c{
+    height: 496px;
+}
+.zhuoyi-c{
+    height: 611px;
+}
+.yigui-c{
+    height: 613px;
+}
+.deng-c{
+    height: 691px;
+}
+.chuang-c .nav{
+    float: right;
+}
+.shafa-c .nav{
+    float: right;
+}
+.zhuoyi-c .nav{
+    float: right;
+}
+.yigui-c .nav{
+    float: right;
+}
+.deng-c .nav{
+    float: right;
+}
+.chuang-c .nav-item{
+    line-height: 16px;
+}
+.chuang-c .nav-item .line{
+    top: 24px;
+}
+.shafa-c .nav-item{
+    line-height: 16px;
+}
+.shafa-c .nav-item .line{
+    top: 24px;
+}
+.zhuoyi-c .nav-item{
+    line-height: 16px;
+}
+.zhuoyi-c .nav-item .line{
+    top: 24px;
+}
+.yigui-c .nav-item{
+    line-height: 16px;
+}
+.yigui-c .nav-item .line{
+    top: 24px;
+}
+.deng-c .nav-item{
+    line-height: 16px;
+}
+.deng-c .nav-item .line{
+    top: 24px;
+}
+.list{
+    position: absolute;
+    top: 83px;
+    height: 584px;
+    width: 100%;
+}
+.list .list-item{
+    position: relative;
+    float: left;
+    width: 360px;
+    height: 390px;
+    margin-right: 40px;
+}
+.list .list-item .img-box{
+    width: 100%;
+    height: 320px;
+    background: url(../img/chuang1.jpg) no-repeat center
+}
+.list-item .up{
+    position: absolute;
+    top: 349px;
+    left: 132px;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+.list-item .down{
+    position: absolute;
+    left: 132px;
+    top: 369px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.shafa .list{
+    position: absolute;
+    top: 15px;
+    height: 390px;
+    width: 100%;
+}
+.yigui-c .list{
+    position: absolute;
+    top: 130px;
+    height: 390px;
+    width: 100%;
+}
+.deng-c .list{
+    position: absolute;
+    top: 180px;
+    height: 390px;
+    width: 100%;
+}

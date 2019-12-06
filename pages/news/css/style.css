@@ -1,0 +1,57 @@
+.header-c,
+.main-c,
+.footer-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.main-c{
+    height: 1093px;
+}
+.header{
+    border-bottom: 20px solid #f6f6f6;
+}
+.main-c .tp{
+    position: absolute;
+    top: 63px;
+    left: 0;
+    width: 630px;
+    height: 830px;
+}
+.main-c .tp-item{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 30px;
+    background: url(../img/tp1.jpg)
+}
+.main-c .nr{
+    position: absolute;
+    top: 63px;
+    left: 631px;
+    width: 570px;
+    height: 700px;
+}
+.nr-item{
+    height: 145px;
+}
+
+.nr-item-1{
+    height: 170px;
+}
+.main-c .title{
+    float: left;
+    font-size: 18px;
+    color: #6b6b6b;
+}
+.main-c .time{
+    float: right;
+    font-size: 18px;
+    color: #6b6b6b;
+}
+.main-c .title-a{
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #989898;
+}
